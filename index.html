@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>The Cat</title>
+    <meta charset="utf-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="carousel/js/main.js"></script>
+    
+    <style>
+    /* Make the image fully responsive */
+    .carousel-inner img {
+      width: 100%;
+      height: 100%;
+    }
+    
+    table.customTable {
+      width: 100%;
+      background-color: #FFFFFF;
+      border-collapse: collapse;
+      border-width: 0px;
+      border-color: #575E64;
+      border-style: solid;
+      color: #000000;
+    }
+
+    table.customTable td, table.customTable th {
+      border-width: 0px;
+      border-color: #575E64;
+      border-style: solid;
+      padding: 2px;
+      vertical-align: top;
+    }
+
+    table.customTable thead {
+      background-color: #7EA8F8;
+    }
+    
+    </style>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="carousel/css/style.css">
+
+  </head>
+  
+  <body>
+  
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+      <a class="navbar-brand" href="#">The Cat</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="home.php">Cat Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cats.php">Muru</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.php">About</a>
+          </li>        
+        </ul>
+        
+      </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-5">A Cat's Life</h1>
+      </div>
+    </div>
+    
+    <div class="container-fluid">
+    
+        <div id="cat" class="carousel slide" data-ride="carousel">
+
+          <!-- Indicators -->
+          <ul class="carousel-indicators">
+            <li data-target="#cat" data-slide-to="0" class="active"></li>
+            <li data-target="#cat" data-slide-to="1"></li>
+            <li data-target="#cat" data-slide-to="2"></li>
+          </ul>
+          
+          <!-- The slideshow -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://datatuki.net/the-cat/carousel/images/img_1.jpg" alt="Irish" width="900" height="300">
+            </div>
+            <div class="carousel-item">
+              <img src="https://datatuki.net/the-cat/carousel/images/img_2.jpg" alt="Indian" width="900" height="300">
+            </div>
+            <div class="carousel-item">
+              <img src="https://datatuki.net/the-cat/carousel/images/img_3.jpg" alt="Groucho Marx" width="900" height="300">
+            </div>
+          </div>
+          
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#cat" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#cat" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+
+        
+        <div class="text-center text-dark mt-2">
+
+          <h5>One of the problems of taking things apart and seeing how they work</h5> 
+          <div style="display: inline-block; text-align: left; border: 1px solid #575E64;  border-radius: 8px; padding:12px;">  
+            Supposing you're trying to find out how a cat works<br />
+            You take that cat apart to see how it works, <br />What you've got in your hands is a non-working cat.<br />
+            The cat wasn't a sort of clunky mechanism that was susceptible to our available tools of analysis.
+            <br />
+            <div style="padding-top:16px;"></div>
+            <table class="customTable">
+              <tbody>
+                <tr>
+                  <td><img src="images/picture2.jpg" align="left" style="padding-right:12px"></td>
+                  <td><b>I am watching</b> <br />
+                  Cat's don't like change without their consent.<br />Cats can be cooperative when something feels good, <br />
+                  which, to a cat, is the way everything is supposed to feel as much of the time as possible.
+                  </td>
+                </tr>
+                <tr>
+                  <td><img src="images/picture3.jpg" align="left" style="padding-right:12px"></td>
+                  <td><b>I am thinking</b> <br />
+                  The cat is a creature of most refined and subtle perceptions naturally.<br />
+                  There are people who reshape the world by force or argument,<br />
+                  but the cat just lies there, dozing; and the world quietly reshapes itself to suit his comfort and convenience.
+                  </td>
+                </tr>
+                <tr>
+                  <td><img src="images/picture1.jpg" align="left" style="padding-right:12px"></td>
+                  <td><b>I am resting</b> <br />
+                  The thing about cats - as you may find - is that no one knows What they have in mind.
+                  </td>
+                </tr>
+                <tr>
+                  <td><img src="images/picture4.jpg" align="left" style="padding-right:12px"></td>
+                  <td><b>And purr sleeping</b> <br />
+                  Cats have always been associated with the Moon.<br />
+                  Like the Moon, they come to life at night, escaping from humanity and wandering over housetops with their eyes beaming out through the darkness.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          
+        </div>
+        
+        <div class="text-center mt-2">
+          <p>This is just an example Carousel. It uses <b>Bootstrap 4.5</b>!</p>
+        </div>
+          
+          <footer class="bg-secondary text-center text-light">
+          
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+              © 2020 Copyrights&nbsp;
+              <a class="text-light" href="https://happycoding.io/tutorials/javascript/bootstrap/personal-page-bootstrap-default">Happy Coding</a>
+              &nbsp;&nbsp;
+              <a class="text-light" href="http://www.marijazaric.com">Marija Zaric - Template</a>
+              &nbsp;&nbsp;Modified By
+              <a class="text-light" href="https://datatuki.net">&nbsp;(2023) Datatuki.net, Jorma Hytönen</a>
+            </div>
+            <!-- Copyright -->      
+            
+          </footer>    
+          
+    </div>    <!-- END Container-Fluid  -->
+            
+  </body>
+</html>
